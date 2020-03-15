@@ -5,8 +5,8 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class Voting {
-    int type;
-    String question;
-    ArrayList<Person> voters;
-    HashMap<String, HashSet<Vote>> polls;
+    private int type;
+    private String question;
+    private ArrayList<Person> voters;
+    private HashMap<String, HashSet<Vote>> polls;
 }
