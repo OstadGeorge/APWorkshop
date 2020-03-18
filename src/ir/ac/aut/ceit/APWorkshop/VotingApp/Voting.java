@@ -78,6 +78,9 @@ public class Voting {
      * @throws Exception exception if person voted before
      */
     public void vote(Person person, ArrayList<String> pollsArray) throws Exception {
+        if(this.type == 0 && pollsArray.size() > 1) {
+            throw new Exception("it is a single voting.");
+        }
         if(voters.contains(person)) {
             throw new Exception("Person is already voted.");
         }
