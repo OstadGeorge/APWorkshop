@@ -36,6 +36,7 @@ public class VotingSystem {
         for(String poll : polls) {
             voting.createPoll(poll);
         }
+        votingList.add(voting);
     }
 
     /**
