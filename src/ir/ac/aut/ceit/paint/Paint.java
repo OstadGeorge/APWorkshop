@@ -2,6 +2,11 @@ package ir.ac.aut.ceit.paint;
 
 import java.util.ArrayList;
 
+/**
+ * Paint class
+ * @author Mohammad Ali Heydari
+ * @version 0.1
+ */
 public class Paint {
     private ArrayList<Shape> shapes;
 

@@ -43,7 +43,7 @@ public class Rectangle extends Polygon {
     public String toString() {
         return "Rectangle{" +
                 "sides=" + sides + ", isSquare=" +
-                (isSquare() ? "false" : "true") +
+                (isSquare() ? "true" : "false") +
                 '}';
     }
 }

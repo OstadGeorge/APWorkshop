@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71782533-b111-406e-9235-b3308dc5bdad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ir/ac/aut/ceit/paint/Paint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ir/ac/aut/ceit/paint/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/ac/aut/ceit/paint/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ir/ac/aut/ceit/paint/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/ac/aut/ceit/paint/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ir/ac/aut/ceit/paint/Paint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/ac/aut/ceit/paint/Paint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ir/ac/aut/ceit/paint/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/ac/aut/ceit/paint/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ir/ac/aut/ceit/paint/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ir/ac/aut/ceit/paint/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586376884378</updated>
-      <workItem from="1586376888849" duration="2490000" />
+      <workItem from="1586376888849" duration="2899000" />
     </task>
     <servers />
   </component>
@@ -68,6 +76,22 @@
       <screen x="59" y="27" width="1861" height="1053" />
     </state>
     <state x="797" y="265" width="478" height="575" key="#com.intellij.ide.util.MemberChooser/59.27.1861.1053@59.27.1861.1053" timestamp="1586378911626" />
+    <state width="889" height="521" key="GridCell.Tab.0.bottom" timestamp="1586379778290">
+      <screen x="59" y="27" width="1861" height="1053" />
+    </state>
+    <state width="889" height="521" key="GridCell.Tab.0.bottom/59.27.1861.1053@59.27.1861.1053" timestamp="1586379778290" />
+    <state width="889" height="521" key="GridCell.Tab.0.center" timestamp="1586379778289">
+      <screen x="59" y="27" width="1861" height="1053" />
+    </state>
+    <state width="889" height="521" key="GridCell.Tab.0.center/59.27.1861.1053@59.27.1861.1053" timestamp="1586379778289" />
+    <state width="889" height="521" key="GridCell.Tab.0.left" timestamp="1586379778287">
+      <screen x="59" y="27" width="1861" height="1053" />
+    </state>
+    <state width="889" height="521" key="GridCell.Tab.0.left/59.27.1861.1053@59.27.1861.1053" timestamp="1586379778287" />
+    <state width="889" height="521" key="GridCell.Tab.0.right" timestamp="1586379778289">
+      <screen x="59" y="27" width="1861" height="1053" />
+    </state>
+    <state width="889" height="521" key="GridCell.Tab.0.right/59.27.1861.1053@59.27.1861.1053" timestamp="1586379778289" />
     <state x="672" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586376889977">
       <screen x="59" y="27" width="1861" height="1053" />
     </state>

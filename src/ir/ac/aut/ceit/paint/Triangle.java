@@ -46,7 +46,7 @@ public class Triangle extends Polygon {
     public String toString() {
         return "Triangle{" +
                 "sides=" + sides + ", isEquilateral=" +
-                (isEquilateral() ? "false" : "true") +
+                (isEquilateral() ? "true" : "false") +
                 '}';
     }
 }
