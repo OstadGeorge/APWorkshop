@@ -17,4 +17,11 @@ public abstract class Polygon implements Shape{
     public ArrayList<Double> getSides() {
         return sides;
     }
+
+    @Override
+    public String toString() {
+        return "Polygon{" +
+                "sides=" + sides +
+                '}';
+    }
 }
