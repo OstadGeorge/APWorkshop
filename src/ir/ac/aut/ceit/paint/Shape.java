@@ -6,8 +6,8 @@ package ir.ac.aut.ceit.paint;
  * @version 0.1
  */
 public interface Shape {
-    public int calculatePerimeter();
-    public int calculateArea();
-    public int draw();
+    public double calculatePerimeter();
+    public double calculateArea();
+    public void draw();
     public String toString();
 }
