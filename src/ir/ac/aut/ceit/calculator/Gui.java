@@ -8,6 +8,12 @@ import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.*;
 
+/**
+ * simple calculator
+ *
+ * @author Mohammad Ali Heydari
+ * @version 0.2
+ */
 public class Gui implements KeyListener, ActionListener {
     private JFrame mainFrame;
     private JMenuBar menuBar;
