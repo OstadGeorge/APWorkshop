@@ -6,14 +6,19 @@ import java.net.UnknownHostException;
 import java.util.Scanner;
 
 public class Client implements Runnable {
-    private InputStream inputStream;
-    private OutputStream outputStream;
+    private DataInputStream inputStream;
+    private DataOutputStream outputStream;
     private Socket socket;
 
+    public Client() {
+        connectServer();
+    }
+
     public void connectServer() {
-        try (Socket socket = new Socket("127.0.0.1", 8888)) {
+        try {
+            socket = new Socket("127.0.0.1", 8888);
             inputStream = new DataInputStream(new BufferedInputStream(socket.getInputStream()));
-            outputStream = socket.getOutputStream();
+            outputStream = new DataOutputStream(socket.getOutputStream());
         } catch (UnknownHostException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -27,19 +32,25 @@ public class Client implements Runnable {
         while (true) {
             System.out.print(":: Enter Your String:\n>> ");
             try {
-                String entered = scanner.next();
+                String entered = scanner.nextLine();
                 if(entered.toLowerCase().equals("over")) return;
-                outputStream.write(entered.getBytes());
+                outputStream.writeUTF(entered);
             } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
 
             try {
                 int sz = inputStream.available();
                 if(sz > 0) {
-                    byte[] resp = new byte[sz];
-                    inputStream.read(resp);
-                    System.out.println(":: Server Response:\n>>");
+                    String resp;
+                    resp = inputStream.readUTF();
+                    System.out.println(":: Server Response:\n$$ " + resp);
                 }
             } catch (IOException e) {
                 e.printStackTrace();

@@ -24,6 +24,7 @@ public class Server implements Runnable {
         while(true) {
             try {
                 Socket channel = serverSocket.accept();
+                System.out.println("[!] New request received!");
                 executorService.execute(new ClientHandler(channel));
             } catch (IOException e) {
                 e.printStackTrace();
