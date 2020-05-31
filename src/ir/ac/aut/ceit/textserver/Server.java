@@ -10,9 +10,9 @@ public class Server implements Runnable {
     private ServerSocket serverSocket;
     private ExecutorService executorService;
 
-    public Server(int port) {
+    public Server() {
         try {
-            serverSocket = new ServerSocket(port);
+            serverSocket = new ServerSocket(8888);
             executorService = Executors.newCachedThreadPool();
         } catch (IOException e) {
             e.printStackTrace();
